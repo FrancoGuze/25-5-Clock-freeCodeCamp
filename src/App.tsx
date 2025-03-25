@@ -173,14 +173,14 @@ function App() {
 
         <div className="flex-1/1 flex flex-row justify-center items-center gap-4 mt-5 *:min-w-28">
           <button
-            className=" bg-blue-950 py-0.5 transition-all duration-75 border-secondary-700 border-2 hover:bg-secondary-900 active:border-0 "
+            className=" bg-blue-950 py-0.5 rounded-lg transition-all duration-75 border-secondary-700 border-2 hover:bg-secondary-900 active:border-0 "
             id="start_stop"
             onClick={() => setRunning(!running)}
           >
             {running ? "pausar" : "continuar"}
           </button>
           <button
-            className=" bg-blue-950 py-0.5 transition-all duration-75 border-secondary-700 border-2 hover:bg-secondary-900 active:border-0 "
+            className=" bg-blue-950 py-0.5 rounded-lg transition-all duration-75 border-secondary-700 border-2 hover:bg-secondary-900 active:border-0 "
             id="reset"
             onClick={() => {
               setSwap(false);
